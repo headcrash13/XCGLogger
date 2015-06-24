@@ -7,9 +7,11 @@
 //  Some rights reserved: https://github.com/DaveWoodCom/XCGLogger/blob/master/LICENSE.txt
 //
 
-import Foundation
+//import Foundation
 #if os(iOS) || os(watchOS)
     import UIKit
+#else
+    import Cocoa
 #endif
 
 // MARK: - XCGLogDetails
